@@ -31,7 +31,7 @@ int ns_theater(char *s)
 
 int arts_theater_or_dining(char *s)
 {
-    return strstr(s, "art") || strstr(s, "theater") || strstr(s, "dining");
+    return strstr(s, "arts") || strstr(s, "theater") || strstr(s, "dining");
 }
 
 void find( int(*match)(char*))
@@ -53,4 +53,4 @@ int main() {
     find(ns_theater);
     find(arts_theater_or_dining);
     return 0;
-}s
+}
