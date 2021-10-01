@@ -11,7 +11,6 @@ int main()
             fprintf(stdout, "%s\n", word);
         else
             fprintf(stderr, "%s\n", word);
-
     }
     return 0;
 }
